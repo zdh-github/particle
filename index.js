@@ -4,7 +4,7 @@ class Particle {
             density: 100,
             radius: 5,
             color: "#20BCFC",
-            connect: 75
+            connect: 150
         }, options);
         this.canvas = document.querySelector(selector);
         this.canvas.width = window.innerWidth;
@@ -113,4 +113,4 @@ class Particle {
     }
 }
 
-const particle = new Particle("canvas", 200, 5, "#20BCFC");
+const particle = new Particle("canvas");
